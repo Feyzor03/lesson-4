@@ -1,8 +1,8 @@
-n = int(input("Количество школьников: "))
-k = int(input("Количество мандаринов: "))
+pupils = int(input("Количество школьников: "))
+Mandarins = int(input("Количество мандаринов: "))
 
-mandarins_schoolchildren = k // n
-tangerines_basket = k % n
+mandarins_schoolchildren = Mandarins // pupils
+tangerines_basket = Mandarins % pupils
 
 print("У студнтов по: ",mandarins_schoolchildren)
 print("В корзине:",tangerines_basket)
