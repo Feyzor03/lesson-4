@@ -1,0 +1,8 @@
+import math
+
+x_degress = float(input("Введите число угла в градусах:"))
+
+radian = math.radians((x_degress))
+expression = math.sin(radian) + math.cos(radian) - (math.tan(radian)**2)
+
+print(expression)
