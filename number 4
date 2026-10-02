@@ -3,5 +3,6 @@ k = int(input("Количество мандаринов: "))
 
 mandarins_schoolchildren = k // n
 tangerines_basket = k % n
+
 print("У студнтов по: ",mandarins_schoolchildren)
 print("В корзине:",tangerines_basket)
